@@ -1,0 +1,23 @@
+**/node_modules/
+**/.expo/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.log
+
+dist/
+web-build/
+coverage/
+
+.DS_Store
+
+# Giải thích
+# Dòng	Công dụng
+# **/node_modules/	Không đẩy thư viện npm
+# **/.expo/	Bỏ qua cache Expo
+# **/.env	Không đẩy mật khẩu MongoDB, JWT
+# **/.env.*	Bỏ qua các file cấu hình môi trường khác
+# !**/.env.example	Cho phép đẩy file cấu hình mẫu
+# **/*.log	Không đẩy file log
+# dist/, web-build/	Không đẩy thư mục build Web
+# coverage/	Không đẩy dữ liệu kiểm thử

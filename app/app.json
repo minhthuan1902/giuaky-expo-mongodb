@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Quan ly nguoi dung",
+    "slug": "quan-ly-nguoi-dung-giuaky",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#f3f6fd",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true },
+    "web": { "bundler": "metro", "name": "Quan ly nguoi dung" },
+    "plugins": [
+      ["expo-image-picker", { "photosPermission": "Cho phep ung dung chon anh nguoi dung" }]
+    ]
+  }
+}
