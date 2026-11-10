@@ -1,6 +1,6 @@
 # BÀI GIỮA KỲ - QUẢN LÝ NGƯỜI DÙNG (EXPO + MONGODB)
 
-**Đúng đề thi 11/2026:** React Native (Expo) chạy Web và iPhone; Node.js + Express API; MongoDB.
+ React Native (Expo) chạy Web và iPhone; Node.js + Express API; MongoDB.
 
 **Database:** `giuaky_users` / collection `users` có đúng bốn trường dữ liệu do đề yêu cầu: `email`, `matkhau`, `hoten`, `hinhanh`. MongoDB tự tạo `_id`. Không thêm `role`, `phone`, `createdAt`, `__v`. Mật khẩu được băm bcrypt; hình ảnh được lưu ngay trong trường `hinhanh` dưới dạng data URI base64 để file JSON xuất ra chứa cả ảnh.
 
